@@ -1,0 +1,158 @@
+#title
+{
+    background-color: #ff4c68;
+    color: white;
+}
+h1{
+   font-size: 3.5656rem;
+   line-height: 2;
+   font-family:"Montserrat";
+  
+
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+body
+{
+  font-family: montserrat;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0px 0px 4.5rem 0px;
+}
+.nav-item
+{
+    padding:0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.download{
+  margin: 5% 2% 7% 0px;
+}
+.title-image
+{
+    width: 60%;
+   transform: rotate(20deg);
+   position: absolute;
+   right: 30%;
+   
+}
+/* features section */
+#features
+{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+
+}
+    
+.feature-box
+{
+    text-align: center;
+    line-height: 1;
+    padding: 5px;
+}
+h3{
+    font-family: montserrat ;
+    font-weight: bold;
+}
+p
+{
+    color: gray;
+}
+.icon
+{
+    color: #ef8172;
+    margin-bottom: 16px;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+/* testimonial section  */
+#testimonials{
+   text-align: center;
+   
+   background-color: #ef8172;
+   color: white;
+   
+}
+h2{
+    font-family: montserrat;
+    font-size:3rem ;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius:50% ;
+    margin: 20px;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+/* press section  */
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.press-logo
+{
+    width: 15%;
+    margin: 10px 15px 30px 15px;
+}
+/* pricing section */
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column
+{
+     padding: 3% 2%;
+}
+@media (max-width: 1028px)
+{
+
+    h1{
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* call to action */
+#cta
+{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 10% 15%;
+    font-family: montserrat;
+    color: aliceblue;
+}
+.uu
+{
+    font-size: 3.5rem;
+    line-height: 1;
+}
+/* footer section  */
+#footer 
+{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.social-icon
+{
+    margin:20px 10pxf ;
+}
